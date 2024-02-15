@@ -1,0 +1,68 @@
+html {
+    background: linear-gradient(to bottom right, pink, white);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: fixed;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#button_container {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+p {
+    color: #ad4a8b;
+    font-size: 25px;
+    width: 300px;
+    height: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+#yes {
+    color: white;
+    font-size: 15px;
+    width: 70px;
+    height: 35px;
+    background-color: lightgreen;
+    border: none;
+    margin-top: 20px;
+}
+
+#no {
+    color: white;
+    width: 70px;
+    height: 35px;
+    background-color:  red;
+    border: none;
+    margin-top: 20px;
+}
